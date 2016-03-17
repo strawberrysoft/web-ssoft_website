@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width-device-width, initial-scale-1, maximum-scale-1, user-scalable-no"/>
+		<title>首页</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<style type="text/css">
+			.info-content {
+			    background-color: #fff;
+			    box-shadow: 2px 2px 3px #ccc;
+			    margin: 0 0 20px;
+			}
+			
+			#top{
+				background-color: #00a2ca;
+				
+			}
+			#top p{
+				margin: 4px 110px 4px 0px;
+			}
+			#top a{
+				color: #ddd;
+			}
+			
+			#my-nav{
+				background-color: #BEF1FF;
+				padding-top: 30px;
+			}
+			#my-nav ul>li>a{
+				min-height: 100px;
+			}
+			#my-nav li{
+				width: 100px;
+			}
+			#my-nav a{
+				line-height: 100px;
+				padding: 0;
+				text-align: center;
+			}
+			#my-nav .nav-pills > li > a:focus,
+			.nav-pills > li > a:hover {
+				background-color: #44DDFF;
+				color: #fff;
+			}
+			#my-nav .nav-pills >li.action>a{
+				background-color: #44DDFF;
+				color: #fff;
+			}
+			
+			#show{
+				background-color: #00A3E8;
+				padding: 40px 0;
+			}
+			
+			#introduce{
+				background-color:#eee;
+				padding: 40px 0;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container-fluid navbar-fixed-top" id="top">
+			<!--<form class="navbar-form navbar-left" action="">
+				<div class="input-group input-group-sm">
+					<input class="form-control" type="text">
+					<span class="input-group-btn">
+							<button class="btn btn-default" type="button">搜索</button>
+					</span>
+				</div>
+			</form>-->
+			<div class="pull-right">
+				<p>
+					<a href="manage.html">管理中心</a>&nbsp;
+					<a href="help.html">帮助</a>&nbsp; 
+					<a href="call_us.html">联系我们</a>&nbsp;
+					<a href="login.html">登录</a>&nbsp;/&nbsp;<a href="regist.html">注册</a>
+				</p>
+			</div>	
+		</div>
+		<div class="container-fluid" id="my-nav">
+			<ul class="nav nav-pills" style="margin-left: 100px;">
+				<a class="pull-left"><img src="img/logo.jpg" style="height: 90px; width: 200px; padding-right: 10px;"/></a>
+				<li class="action"><a href="index.html">首页</a></li>
+				<li><a href="product.html">产品与服务</a></li>
+				<li><a href="case.html">经典案例</a></li>
+				<li><a href="news.html">新闻中心</a></li>
+				<li><a href="joinus.html">招贤纳士</a></li>
+				<li><a href="community.html">社区交流</a></li>
+				<li><a href="invest.html">投资合作</a></li>
+				<li><a href="about.html">关于我们</a></li>
+			</ul>
+		</div>
+		<div id="myCarousel" class="carousel slide">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" style="background:#223240">
+					<img src="img/slide1.png" alt="第一张">
+				</div>
+				<div class="item" style="background:#F5E4DC;">
+					<img src="img/slide2.png" alt="第二张">
+				</div>
+				<div class="item" style="background:#DE2A2D;">
+					<img src="img/slide3.png" alt="第三张">
+				</div>
+			</div>
+			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a href="#myCarousel" data-slide="next" class="carousel-control right">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+		
+		
+		
+		<div style="background: #ddd;">
+			<div class="container" style="padding: 40px;">
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-danger center-block">
+				移动应用
+				</button>
+			</div>
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-danger center-block">
+				虚拟现实
+				</button>
+			</div>
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-danger center-block">
+				游戏开发
+				</button>
+			</div>
+			<div class="col-md-3">
+				<button class="btn btn-lg btn-danger center-block">
+				网站搭建
+				</button>
+			</div>
+			</div>
+		</div>
+		
+		
+		
+		<div id="show">
+			<div class="container">
+				<blockquote style="border-left: 5px solid #EEA236;">经典案例</blockquote>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="row info-content">
+							<div class="col-md-5 col-sm-5 col-xs-5">
+								<img class="img-responsive" alt="" src="img/slide1.png">
+							</div>
+							<div class="col-md-7 col-sm-7 col-xs-7">
+								<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+								<p>admin 15 / 10 / 11</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row info-content">
+							<div class="col-md-5 col-sm-5 col-xs-5">
+								<img class="img-responsive" alt="" src="img/slide1.png">
+							</div>
+							<div class="col-md-7 col-sm-7 col-xs-7">
+								<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+								<p>admin 15 / 10 / 11</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row info-content">
+							<div class="col-md-5 col-sm-5 col-xs-5">
+								<img class="img-responsive" alt="" src="img/slide1.png">
+							</div>
+							<div class="col-md-7 col-sm-7 col-xs-7">
+								<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+								<p>admin 15 / 10 / 11</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="row info-content">
+							<div class="col-md-5 col-sm-5 col-xs-5">
+								<img class="img-responsive" alt="" src="img/slide1.png">
+							</div>
+							<div class="col-md-7 col-sm-7 col-xs-7">
+								<h4>广电总局发布TVOS2.0 华为阿里参与研发</h4>
+								<p>admin 15 / 10 / 11</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="introduce">
+		<div class="container">
+			<div class="col-md-3">
+				<ul class="list-group">
+					<li class="list-group-item active">新闻动态</li>
+					<li class="list-group-item">新闻动态1</li>
+					<li class="list-group-item">新闻动态1</li>
+					<li class="list-group-item">新闻动态1</li>
+					<li class="list-group-item">新闻动态1</li>
+					<li class="list-group-item">新闻动态1</li>
+				</ul>
+				<ul class="list-group">
+					<li class="list-group-item active">行业新闻</li>
+					<li class="list-group-item">行业新闻1</li>
+					<li class="list-group-item">行业新闻1</li>
+					<li class="list-group-item">行业新闻1</li>
+					<li class="list-group-item">行业新闻1</li>
+					<li class="list-group-item">行业新闻1</li>
+				</ul>
+			</div>
+			<div class="col-md-7">
+				<div class="well" style="height: 510px;">
+					主营业务
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="well" style="height: 510px;">
+					社区交流
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
+		<div id="bottom">
+			<div class="container">
+				<div class="row">
+		            <div class="col-md-3">
+		                
+		                <ul class="list-unstyled">
+		                	<li><h4>关于我们</h4></li>
+		                    <li><a href="#">帮助</a></li>
+		                    <li><a href="#">登录</a></li>
+		                    <li><a href="#">博客</a></li>
+		                    <li><a href="#">论坛</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-md-3">
+		                
+		                <ul class="list-unstyled">
+		                	<li><h4>联系我们</h4></li>
+		                    <li><a target="_blank" href="#">人人网公共主页</a></li>
+		                    <li><a target="_blank" href="#">QQ认证空间</a></li>
+		                    <li><a target="_blank" href="#">新浪微博</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-md-3">
+		                
+		                <ul class="list-unstyled">
+		                	<li><h4>加入我们</h4></li>
+		                    <li><a href="#">加入我们</a></li>
+		                    <li><a href="#">友情链接</a></li>
+		                </ul>
+		            </div>
+		            <div class="col-md-3">
+		                
+		                <ul class="list-unstyled">
+		                	<li><h4>合作</h4></li>
+		                    <li><a href="#">API</a></li>
+		                </ul>
+		            </div>
+		        </div>
+			</div>
+        </div>
+
+		<footer id="footer">
+			<div class="container">
+				<p>友情链接</p>
+			</div>
+		</footer>
+	
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
+
